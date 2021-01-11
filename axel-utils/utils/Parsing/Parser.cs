@@ -26,6 +26,7 @@ namespace axelutils.Parsing
                 try
                 {
                     number = double.Parse(input, culture);
+
                     return number;
                 }
                 catch (FormatException)
