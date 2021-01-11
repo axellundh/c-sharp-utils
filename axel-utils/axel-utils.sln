@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "axelutils", "utils\axelutils.csproj", "{4AFB4A65-5D88-482B-B51B-E71D5F6F2C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "axelutilsTests", "axelutilsTests\axelutilsTests.csproj", "{053F128F-3B5D-4B2F-98A7-35817CBBE4E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AFB4A65-5D88-482B-B51B-E71D5F6F2C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFB4A65-5D88-482B-B51B-E71D5F6F2C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFB4A65-5D88-482B-B51B-E71D5F6F2C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFB4A65-5D88-482B-B51B-E71D5F6F2C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053F128F-3B5D-4B2F-98A7-35817CBBE4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053F128F-3B5D-4B2F-98A7-35817CBBE4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053F128F-3B5D-4B2F-98A7-35817CBBE4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053F128F-3B5D-4B2F-98A7-35817CBBE4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C3FB0AC-7309-4EA9-963D-87E55DE1C5BF}
+	EndGlobalSection
+EndGlobal
