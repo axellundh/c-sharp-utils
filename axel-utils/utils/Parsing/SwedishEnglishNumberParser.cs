@@ -3,14 +3,14 @@ using System.Globalization;
 
 namespace axelutils.Parsing
 {
-    public class Parser
+    public class SwedishEnglishNumberParser
     {
         /// <summary>
         /// Converts a string to double, respects diffrent culutre decimal deliminators
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        public static double StringToDouble(in string input)
+        public static double ParseToDouble(in string input)
         {
             double number;
             CultureInfo culture;
@@ -41,7 +41,7 @@ namespace axelutils.Parsing
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
-        public static decimal StringToDecimal(in string input)
+        public static decimal ParsetoDecimal(in string input)
         {
             decimal number;
             CultureInfo culture;
